@@ -7,7 +7,7 @@ const About = () => {
     return ( 
         <section className="h-fit w-screen">
             <div className="relative min-h-screen w-full  bg-about bg-fixed bg-cover flex flex-col items-center justify-center">
-                <nav className="absolute top-0 left-0 flex items-end justify-end px-10 w-screen min-h-[10vh] bg-transparent">
+                <nav className="absolute top-0 left-0 flex items-end justify-end px-3 sm:px-10 w-screen min-h-[10vh] bg-transparent">
 
                     <NavLink to="/" className="text-white text-sm sm:text-xl lg:text-xl p-3 decoration-transparent z-20 mx-3">Home</NavLink>
                     <NavLink to="/about" className="text-white text-sm sm:text-xl lg:text-xl p-3 decoration-transparent border-b-2 border-b-red-600 z-20 mx-3">About</NavLink>
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
 
                 <div className="h-fit w-full px-5 py-10 sm:px-10 lg:px-20 flex flex-col items-start justify-center sm:flex-row">
-                <img src="./src/images/mission.jpg" alt="" className="w-[80vw] sm:w-[30vw] lg:w-[40vw]" />
+                <img src="./assets/mission.jpg" alt="" className="w-[80vw] sm:w-[30vw] lg:w-[40vw]" />
                     <div className="lg:w-[50vw] mx-10">
                         <h1 className="text-3xl sm:text-3xl lg:text-5xl font-bold my-5">Mission</h1>
                         <p className="">We provide study-abroad solutions for people who want to study in the Uk. At Transcend Study Support we provide a range of services for prospective students with dreams to study in foreign universities with the goal to obtain a world-class education and internationally respected certificates. </p>

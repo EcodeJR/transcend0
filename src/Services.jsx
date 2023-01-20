@@ -7,7 +7,7 @@ const Join = () => {
     return ( 
     <section className="h-fit w-screen">
         <div className="relative min-h-screen w-full  bg-join bg-fixed bg-cover flex flex-col items-center justify-center">
-                <nav className="absolute top-0 left-0 flex items-end justify-end px-10 w-screen min-h-[10vh] bg-transparent">
+                <nav className="absolute top-0 left-0 flex items-end justify-end px-3 sm:px-10 w-screen min-h-[10vh] bg-transparent">
 
                     <NavLink to="/" className="text-white text-sm sm:text-xl lg:text-xl p-3 decoration-transparent  z-20 mx-3">Home</NavLink>
                     <NavLink to="/about" className="text-white text-sm sm:text-xl lg:text-xl p-3 decoration-transparent z-20 mx-3">About</NavLink>
@@ -29,7 +29,7 @@ const Join = () => {
                     We present prospective students with a range of courses at various educational levels in collaboration with schools whose interests we represent. The available programmes include:</p>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-around items-center w-full">
-                <img src="./src/images/serv.jpg" alt="" className=" h-auto w-[70vw] sm:w-[20vw]" />
+                <img src="./assets/serv.jpg" alt="" className=" h-auto w-[70vw] sm:w-[20vw]" />
                 <div className="p-5 sm:p-10">
                     <p className="text-lg italic font-bold">Doctorate programmes</p>
                     <p className="text-lg italic font-bold">Masters Programmes</p>

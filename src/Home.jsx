@@ -40,7 +40,7 @@ const Home = () => {
                         
                     </div>
                     <div className="min-h-[30vh] sm:min-h-[40vh] lg:min-h-[40vh] w-full lg:w-[50vw] mx-5 my-10 lg:my-0 relative bg-white overflow-hidden">
-                        <img src="./src/images/home_sec2.jpg" alt="" className="absolute z-20 w-[90%] sm:w-[80%] lg:w-[80%] h-auto top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]" />
+                        <img src="./assets/home_sec2.jpg" alt="" className="absolute z-20 w-[90%] sm:w-[80%] lg:w-[80%] h-auto top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]" />
                         <div className="absolute bottom-0 left-0 w-full h-[10vh] bg-red-800 z-10"></div>
                     </div>
                 </div>
@@ -60,21 +60,21 @@ const Home = () => {
                         <button className="border-red-800 border-2 py-3 my-3 group-hover:border-none group-hover:bg-red-800 px-6 sm:py-4 sm:px-5 lg:py-3 lg:px-5 text-red-800 group-hover:text-white font-bold">Learn More</button>
                     </div>
 
-                    <div className="group hover:bg-gray-900 px-5 py-20 sm:py-5 sm:px-5 lg:px-5 lg:py-5  hover:text-white h-full flex flex-col items-start justify-center">
+                    <div className="group hover:bg-gray-900 px-5 py-10 sm:py-5 sm:px-5 lg:px-5 lg:py-5  hover:text-white h-full flex flex-col items-start justify-center">
                     <i className='bx bxs-book text-6xl text-gray-800 group-hover:text-white'></i>
                         <h1 className="mb-10 mt-5 font-bold text-xl">Education</h1>
                         <p>Finding a university that is the best fit for them and walking them through the admission and visa application processes.</p>
                         <button className="border-red-800 border-2 py-3 my-3 group-hover:border-none group-hover:bg-red-800 px-6 sm:py-4 sm:px-5 lg:py-3 lg:px-5 text-red-800 group-hover:text-white font-bold">Learn More</button>
                     </div>
 
-                    <div className="group hover:bg-gray-900 px-5 py-20 sm:py-5 sm:px-5 lg:px-5 lg:py-5  hover:text-white h-full flex flex-col items-start justify-center">
+                    <div className="group hover:bg-gray-900 px-5 py-10 sm:py-5 sm:px-5 lg:px-5 lg:py-5  hover:text-white h-full flex flex-col items-start justify-center">
                     <i className='bx bx-file text-6xl text-gray-800 group-hover:text-white'></i>
                         <h1 className="mb-10 mt-5 font-bold text-xl">Certification</h1>
                         <p>Study in foreign universities with the goal to obtain a world-class education and internationally respected certificates.</p>
                         <button className="border-red-800 border-2 py-3 my-3 group-hover:border-none group-hover:bg-red-800 px-6 sm:py-4 sm:px-5 lg:py-3 lg:px-5 text-red-800 group-hover:text-white font-bold">Learn More</button>
                     </div>
 
-                    <div className="group hover:bg-gray-900 px-5 py-20 sm:py-5 sm:px-5 lg:px-5 lg:py-5 hover:text-white h-full flex flex-col items-start justify-center">
+                    <div className="group hover:bg-gray-900 px-5 py-10 sm:py-5 sm:px-5 lg:px-5 lg:py-5 hover:text-white h-full flex flex-col items-start justify-center">
                     <i className='bx bx-rocket text-6xl text-gray-800 group-hover:text-white'></i>
                         <h1 className="mb-10 mt-5 font-bold text-xl">Career Boost</h1>
                         <p>We provide study-abroad solutions for people who want to study in the Uk.</p>
@@ -94,19 +94,19 @@ const Home = () => {
                 </div>
                 <div className="py-10 px-5 sm:px-10 lg:px-20 flex flex-col items-center justify-center lg:w-[50vw]">
                     <span>
-                    <i className='bx bxs-badge text-3xl text-gray-800' ></i>
+                    <i className='bx bxs-badge text-3xl text-gray-800 text-red-800' ></i>
                     <h1 className="text-2xl font-bold">Best Industry</h1>
                     <p>Finding a university that is the best fit for them and walking them through the admission and visa application processes.</p>
                     </span>
 
                     <span className="my-5">
-                    <i className='bx bx-world text-3xl text-gray-800'></i>
+                    <i className='bx bx-world text-3xl text-gray-800 text-red-800'></i>
                     <h1 className="text-2xl font-bold">Learn Online</h1>
                     <p>Study in foreign universities with the goal to obtain a world-class education and internationally respected certificates.</p>
                     </span>
 
                     <span>
-                    <i className='bx bx-user text-3xl text-gray-800'></i>
+                    <i className='bx bx-user text-3xl text-gray-800 text-red-800'></i>
                     <h1 className="text-2xl font-bold">Professional</h1>
                     <p> At Transcend Study Support we provide a range of services for prospective students with dreams to study in foreign universities with the goal to obtain a world-class education and internationally respected certificates.</p>
                     </span>

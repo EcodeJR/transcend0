@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
     return ( 
         <div className="w-screen h-[10vh] flex items-center justify-between px-5 text-gray-800 bg-white sm:px-10 lg:px-20">
-            <img src="./src/icons/Transcend_Blue.png" alt="" className="w-[100px]" />
+            <img src="./assets/Transcend_Blue.png" alt="" className="w-[100px]" />
             <div className="flex flex-col sm:flex-row items-center justify-around w-2/5">
             <a href="mailto:contact@transcendstudy.ng" className="text-sm sm:text-lg">contact@transcendstudy.ng</a>
             <a href="tel:+2348188460781" className="mx-5 text-sm sm:text-lg">+2348188460781</a>

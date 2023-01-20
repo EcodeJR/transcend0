@@ -28,7 +28,7 @@ const FAQ = () => {
         
         <section className="h-fit w-screen">
             <div className="relative min-h-screen w-full  bg-faq bg-fixed bg-cover flex flex-col items-center justify-center">
-                <nav className="absolute top-0 left-0 flex items-end justify-end px-10 w-screen min-h-[10vh] bg-transparent">
+                <nav className="absolute top-0 left-0 flex items-end justify-end px-3 sm:px-10 w-screen min-h-[10vh] bg-transparent">
                 <NavLink to="/" className="text-white text-sm sm:text-xl lg:text-xl p-3 decoration-transparent  z-20 mx-3">Home</NavLink>
                     <NavLink to="/about" className="text-white text-sm sm:text-xl lg:text-xl p-3 decoration-transparent z-20 mx-3">About</NavLink>
                     <NavLink to="/contact" className="text-white text-sm sm:text-xl lg:text-xl p-3 decoration-transparent z-20 mx-3">Contact</NavLink>

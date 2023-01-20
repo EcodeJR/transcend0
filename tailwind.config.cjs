@@ -7,13 +7,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('./images/home.jpg')",
-        'homeSev': "url('./images/service.jpg')",
-        'contact': "url('./images/contact.jpg')",
-        'about': "url('./images/about.jpg')",
-        'join': "url('./images/join.jpg')",
-        'faq': "url('./images/faq.jpg')",
-        'terms': "url('./images/terms.jpg')"
+        'hero': "url('./assets/images/home.jpg')",
+        'homeSev': "url('./assets/images/service.jpg')",
+        'contact': "url('./assets/images/contact.jpg')",
+        'about': "url('./assets/images/about.jpg')",
+        'join': "url('./assets/images/join.jpg')",
+        'faq': "url('./assets/images/faq.jpg')",
+        'terms': "url('./assets/images/terms.jpg')"
       }
     },
   },
